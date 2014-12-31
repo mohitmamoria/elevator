@@ -1,9 +1,12 @@
 /bootstrap/compiled.php
 /vendor
-/node_modules
+/app/config/local
+/app/config/production
 composer.phar
 composer.lock
 .env.*.php
 .env.php
 .DS_Store
 Thumbs.db
+/node_modules
+npm-debug.log
