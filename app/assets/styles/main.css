@@ -10,8 +10,6 @@ section.head-banner {
 	text-align: center;
 	color: #fff;
 	background: #102141;
-	/*background: #333;*/
-	/*background: url('../images/patterns/food.png');*/
 }
 section.head-banner .btn-cta {
 	font-size: 24px;
@@ -19,4 +17,31 @@ section.head-banner .btn-cta {
 	padding: 10px 50px;
 	background: #a60a28;
 	color: #fff;
+}
+
+/**
+ * Secondary Banner
+ */
+section.secondary-banner {
+	padding: 50px 0px 100px;
+	text-align: center;
+}
+
+/**
+ * Me Box
+ */
+section.me {
+	padding: 100px 0px 100px;
+	text-align: center;
+	color: #fff;
+	background: #102141;
+}
+
+/**
+ * Segment Boxes
+ */
+div.segment-box {
+	padding: 30px;
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #ccc;
 }
