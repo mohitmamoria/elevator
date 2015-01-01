@@ -30,11 +30,22 @@ section.secondary-banner {
 /**
  * Me Box
  */
-section.me {
-	padding: 100px 0px 100px;
-	text-align: center;
+section#me {
+	padding: 100px 0px;
 	color: #fff;
 	background: #102141;
+}
+section#me img.avatar {
+	margin-top: 20px;
+}
+section#me p.bio {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 300;
+}
+section#me a {
+	border-bottom: 1px dotted #fff;
+	color: #fff;
 }
 
 /**

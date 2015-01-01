@@ -35,7 +35,7 @@ gulp.task('scripts', ['clean'], function() {
 			'app/assets/scripts/main.js',
 		])
 		.pipe(concat('all.js'))
-		// .pipe(stripdebug())
+		.pipe(stripdebug())
 		.pipe(uglify())
 		.pipe(rename({suffix: '.min'}))
 		.pipe(gulp.dest('public/assets/scripts'));
