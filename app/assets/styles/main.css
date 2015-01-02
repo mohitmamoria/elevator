@@ -1,6 +1,14 @@
 body {
 	/*padding-top: 50px;*/
 }
+.bg-brand-primary {
+	color: #fff;
+	background: #102141;
+}
+.btn-brand-primary {
+	background: #a60a28;
+	color: #fff;	
+}
 
 /**
  * Helpers
@@ -13,6 +21,13 @@ a {
 	border-bottom: 1px dotted #0C61D0;
 	color: #0C61D0;
 }
+.btn-cta {
+	font-size: 24px;
+	margin: 50px;
+	padding: 10px 50px;
+	background: #a60a28;
+	color: #fff;
+}
 
 /**
  * Head Banner
@@ -20,15 +35,6 @@ a {
 section.head-banner {
 	padding: 100px 0px 100px;
 	text-align: center;
-	color: #fff;
-	background: #102141;
-}
-section.head-banner .btn-cta {
-	font-size: 24px;
-	margin: 50px;
-	padding: 10px 50px;
-	background: #a60a28;
-	color: #fff;
 }
 
 /**
@@ -44,8 +50,6 @@ section.secondary-banner {
  */
 section#me {
 	padding: 100px 0px;
-	color: #fff;
-	background: #102141;
 }
 section#me img.avatar {
 	margin-top: 20px;
@@ -67,4 +71,12 @@ div.segment-box {
 	padding: 30px;
 	margin-bottom: 20px;
 	border-bottom: 1px dotted #ccc;
+}
+
+/**
+ * Edition Styles
+ */
+.title-area {
+	padding: 50px 0px;
+	text-align: center;
 }

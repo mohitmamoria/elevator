@@ -5,10 +5,16 @@ Elevator (by Horntell)
 @endsection
 
 @section('content')
+<section class="bg-brand-primary">
+	<a href="/"><img src="/assets/images/elevator-small.png" alt="Elevator" class="img-responsive img-center"></a>
+</section>
+
 <div class="container">
 	<div class="col-md-10 col-md-offset-1">
-		<h1 class="font-thin text-center">Stop Talking, Start Doing!</h1>
-		<p class="text-center">Jan 02, 2015</p>
+		<div class="title-area">
+			<h1 class="font-thin">Stop Talking, Start Doing!</h1>
+			<p><em>Jan 02, 2015</em></p>
+		</div>
 		<section class="panel no-borders">
 			<div class="panel-body">
 				<div class="row">
@@ -95,7 +101,7 @@ Elevator (by Horntell)
 		</section>
 	</div>
 </div>
-<section class="head-banner">
+<section class="bg-brand-primary text-center wrapper">
 	<h2 class="font-bold">How about receiving this in your inbox?</h2>
 	<h3 class="font-thin">twice a week</h3>
 	<p><em>(nothing dull ever, promise)</em></p>
@@ -114,6 +120,5 @@ Elevator (by Horntell)
 			</div>
 		</form>
 	</div>
-	<a href="/"><img src="/assets/images/elevator-small.png" alt="Elevator" class="img-responsive img-center"></a>
 </section>
 @endsection

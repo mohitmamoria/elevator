@@ -6,15 +6,34 @@ Elevator (by Horntell)
 
 @section('content')
 
-	<section class="head-banner">
+	<section class="head-banner bg-brand-primary">
 		<img src="/assets/images/elevator-small.png" alt="Elevator" class="img-responsive img-center">
 		<h2 class="font-bold">Hours of startup wisdom from influencers</h2>
 		<h3 class="font-thin">in under 5-minutes</h3>
-		<a href target="_blank" class="btn btn-cta font-thin">See a sample <i class="fa fa-angle-double-right"></i></a>
+		<a href="/editions/sample" class="btn btn-cta font-thin">See a sample <i class="fa fa-angle-double-right"></i></a>
 	</section>
 
 	<section class="secondary-banner">
-		<h3 class="font-thin">A tiny email filled with knowledge, delivered thrice a week.</h3>
+		<h3 class="font-thin">A tiny email filled with knowledge, delivered twice a week.</h3>
+		<div class="form-group container wrapper">
+			<form action="/join" method="POST">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-sm-4">
+						<input type="text" class="form-control" placeholder="Name">
+					</div>
+					<div class="col-sm-4">
+						<input type="email" class="form-control" placeholder="Email">
+					</div>
+					<div class="col-sm-4">
+						<button type="submit" class="btn btn-brand-primary">Join The Elevator! :)</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<section class="text-center">
+		
 	</section>
 
 	<section class="container">
@@ -50,7 +69,7 @@ Elevator (by Horntell)
 		</div>
 	</section>
 
-	<section id="me">
+	<section id="me" class="bg-brand-primary">
 		<div class="container">
 			<div class="col-md-8 col-md-offset-2">
 				<div class="col-md-3">
@@ -67,6 +86,27 @@ Elevator (by Horntell)
 						is the best place to get hold of me.
 					</p>
 				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="bg-brand-primary text-center">
+		<div class="container">
+			<div class="form-group container">
+				<form action="/join" method="POST">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="col-sm-6">
+							<label class="pull-left">Name</label>
+							<input type="text" class="form-control" placeholder="Name">
+						</div>
+						<div class="col-sm-6">
+							<label class="pull-left">Email</label>
+							<input type="email" class="form-control" placeholder="Email">
+						</div>
+						<button type="submit" class="btn btn-cta">Join The Elevator :)</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</section>
