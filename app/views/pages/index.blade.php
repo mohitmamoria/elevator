@@ -7,6 +7,7 @@ Elevator (by Horntell)
 @section('content')
 
 	<section class="head-banner">
+		<img src="/assets/images/elevator-small.png" alt="Elevator" class="img-responsive img-center">
 		<h2 class="font-bold">Hours of startup wisdom from influencers</h2>
 		<h3 class="font-thin">in under 5-minutes</h3>
 		<a href target="_blank" class="btn btn-cta font-thin">See a sample <i class="fa fa-angle-double-right"></i></a>

@@ -74,13 +74,46 @@ Elevator (by Horntell)
 				<hr />
 				<div class="row">
 					<div class="col-md-12">
-						<p>And in the closing, I leave you with this to shake you up. Remember, those two guys in the basement are actually doing their shit. Everyday.</p>
+						<p>And in the closing, I leave you with something I found across the Twitter to shake you up.</p>
+						<blockquote class="twitter-tweet tw-align-center" lang="en"><p>People who say it cannot be done should not interrupt those who are doing it. -George Bernard Shaw</p>&mdash; SOPHIA AMORUSO (@Sophia_Amoruso) <a href="https://twitter.com/Sophia_Amoruso/status/549612161795129344">December 29, 2014</a></blockquote>
+
 						<blockquote class="twitter-tweet tw-align-center" lang="en"><p>This explains the problem with Thinkers &amp; Talkers. Things don&#39;t move unless you do it! <a href="http://t.co/j8AFPK3SR1">pic.twitter.com/j8AFPK3SR1</a></p>&mdash; PJ (@BeingPractical) <a href="https://twitter.com/BeingPractical/status/538919198634676224">November 30, 2014</a></blockquote>
+
+						<blockquote class="twitter-tweet tw-align-center" lang="en"><p>Don&#39;t be afraid to start over. It&#39;s a brand new opportunity to rebuild what you truly want.</p>&mdash; banksy (@thereaIbanksy) <a href="https://twitter.com/thereaIbanksy/status/550739429636460544">January 1, 2015</a></blockquote>
+
+						<blockquote class="twitter-tweet tw-align-center" lang="en"><p>Make zero resolutions. Just do shit. Do. All. The shit.</p>&mdash; Rae Hoffman (@sugarrae) <a href="https://twitter.com/sugarrae/status/550463569758670848">January 1, 2015</a></blockquote>
 						<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				</div>
+				<hr />
+				<div class="row">
+					<div class="col-md-12">
+						<p>Remember, those two guys in the basement are actually doing their shit. Every fucking day. And you do not need January 1st to change your life.</p>
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
 </div>
+<section class="head-banner">
+	<h2 class="font-bold">How about receiving this in your inbox?</h2>
+	<h3 class="font-thin">twice a week</h3>
+	<p><em>(nothing dull ever, promise)</em></p>
+	<div class="form-group container">
+		<form action="/join" method="POST">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="col-sm-6">
+					<label class="pull-left">Name</label>
+					<input type="text" class="form-control" placeholder="Name">
+				</div>
+				<div class="col-sm-6">
+					<label class="pull-left">Email</label>
+					<input type="email" class="form-control" placeholder="Email">
+				</div>
+				<button type="submit" class="btn btn-cta">Get in the elevator! :)</button>
+			</div>
+		</form>
+	</div>
+	<a href="/"><img src="/assets/images/elevator-small.png" alt="Elevator" class="img-responsive img-center"></a>
+</section>
 @endsection
