@@ -12,3 +12,4 @@
 */
 
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
+Route::get('editions/{slug}', ['as' => 'edition.show', 'uses' => 'EditionController@show']);
