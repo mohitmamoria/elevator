@@ -42,7 +42,7 @@ class SubscriptionController extends \BaseController {
 
 	public function done()
 	{
-		return 'thanks';
+		return View::make('subscription.thanks');
 	}
 
 	private function validatorWhenJoining($input)
