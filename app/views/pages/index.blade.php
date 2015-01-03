@@ -19,10 +19,10 @@ Elevator (by Horntell)
 			<form action="/join" method="POST">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="col-sm-4">
-						<input type="text" class="form-control" placeholder="Name">
+						<input type="text" name="name" class="form-control" placeholder="Name" required>
 					</div>
 					<div class="col-sm-4">
-						<input type="email" class="form-control" placeholder="Email">
+						<input type="email" name="email" class="form-control" placeholder="Email" required>
 					</div>
 					<div class="col-sm-4">
 						<button type="submit" class="btn btn-brand-primary">Join The Elevator! :)</button>
@@ -98,11 +98,11 @@ Elevator (by Horntell)
 					<div class="col-md-8 col-md-offset-2">
 						<div class="col-sm-6">
 							<label class="pull-left">Name</label>
-							<input type="text" class="form-control" placeholder="Name">
+							<input type="text" name="name" class="form-control" placeholder="Name" required>
 						</div>
 						<div class="col-sm-6">
 							<label class="pull-left">Email</label>
-							<input type="email" class="form-control" placeholder="Email">
+							<input type="email" name="email" class="form-control" placeholder="Email" required>
 						</div>
 						<button type="submit" class="btn btn-cta">Join The Elevator :)</button>
 					</div>
