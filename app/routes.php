@@ -12,5 +12,7 @@
 */
 
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
+Route::get('join', ['as' => 'subscription', 'uses' => 'SubscriptionController@create']);
 Route::post('join', ['as' => 'subscription', 'uses' => 'SubscriptionController@join']);
+Route::get('join/thank-you', ['as' => 'subscribed', 'uses' => 'SubscriptionController@done']);
 Route::get('editions/{slug}', ['as' => 'edition.show', 'uses' => 'EditionController@show']);
