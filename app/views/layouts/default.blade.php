@@ -3,9 +3,8 @@
 <head>
 	<title>@yield('title')</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700,400,300">
-	<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nunito:700,300"> -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="{{ URL::asset('assets/styles/all.min.css') }}">
