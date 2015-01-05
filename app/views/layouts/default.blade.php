@@ -12,13 +12,13 @@
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Elevator (by Horntell)">
 	<meta property="og:url" content="http://elevator.horntell.com">
-	<meta property="og:image" content="http://horntell.com/assets/images/horntell.vertical.medium.png">
-	<meta property="og:description" content="Hours of startup wisdom from influencers within 5-minutes. Thrice a week.">
+	<meta property="og:image" content="http://elevator.horntell.com/assets/images/elevator-inverted.png">
+	<meta property="og:description" content="Hours of startup wisdom from influencers within 5-minutes. Twice a week.">
 
 	<!-- Google+ Metadata -->
 	<meta itemprop="name" content="Elevator (by Horntell)">
-	<meta itemprop="image" content="http://horntell.com/assets/images/horntell.vertical.medium.png">
-	<meta itemprop="description" content="Hours of startup wisdom from influencers within 5-minutes. Thrice a week.">
+	<meta itemprop="image" content="http://elevator.horntell.com/assets/images/elevator-inverted.png">
+	<meta itemprop="description" content="Hours of startup wisdom from influencers within 5-minutes. Twice a week.">
 </head>
 <body>
 
