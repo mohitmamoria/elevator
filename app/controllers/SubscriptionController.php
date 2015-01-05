@@ -31,6 +31,13 @@ class SubscriptionController extends \BaseController {
 
 			$subscriber = Subscriber::create($input);
 
+			Mail::send('emails.elevator.welcome', compact('subscriber'), function($message) use($subscriber)
+			{
+				$message
+					->to($subscriber->email, $subscriber->name)
+					->subject('Thank You for joining the Elevator!');
+			});
+
 			return Redirect::route('subscribed');
 		}
 		catch(Exception $e)
