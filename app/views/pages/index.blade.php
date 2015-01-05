@@ -112,18 +112,18 @@ Elevator (by Horntell)
 	<section id="me" class="bg-brand-primary">
 		<div class="container">
 			<div class="col-md-8 col-md-offset-2">
-				<div class="col-md-3">
+				<div class="col-sm-3">
 					<img src="assets/images/mohit-horntell.png" class="thumbnail avatar img-responsive">
 				</div>
-				<div class="col-md-9">
+				<div class="col-sm-9">
 					<h1>Hi, I'm Mohit!</h1>
 					<p class="bio">
-						I am 23, a serial entrepreneur and a nerd. I am writing software
+						I am 23, a serial entrepreneur, writer and a tech geek. I am writing software
 						since I was 11 and built first company at 18. Avid reader,
 						occasional <a href="http://mohitmamoria.com">blogger</a>, regular <a href="http://twitter.com/mohitmamoria">tweeter</a>, currently CEO of <a href="http://horntell.com">Horntell</a>.
 						Turning hacker-to-founder, I hunt and collect loads of knowledge nuggets
-						spread across the internet. <a href="http://twitter.com/mohitmamoria">Twitter</a>
-						is the best place to get hold of me.
+						spread across the internet. Twitter (<a href="http://twitter.com/mohitmamoria">@mohitmamoria</a>)
+						is the best place to get hold of my neck.
 					</p>
 				</div>
 			</div>

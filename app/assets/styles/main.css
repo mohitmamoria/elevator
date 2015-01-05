@@ -18,7 +18,7 @@ img.img-center {
 	margin: 0 auto;
 }
 a {
-	border-bottom: 1px dotted #0C61D0;
+	/*border-bottom: 1px dotted #0C61D0;*/
 	color: #0C61D0;
 }
 .btn-cta {
