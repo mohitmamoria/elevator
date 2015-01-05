@@ -40,4 +40,5 @@ Elevator (by Horntell)
 
 		{{ Form::close() }}
 	</div>
-	@endsection
+</div>
+@endsection
