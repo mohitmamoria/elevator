@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://elevator.horntell.com',
 
 	/*
 	|--------------------------------------------------------------------------
