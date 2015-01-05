@@ -29,7 +29,7 @@ class SubscriptionController extends \BaseController {
 				return Redirect::route('subscription')->withInput()->withErrors($v);
 			}
 
-			$subscriber = Subscriber::create($input);
+			$subscriber = Subscriber::join($input);
 
 			Mail::send('emails.elevator.welcome', compact('subscriber'), function($message) use($subscriber)
 			{
@@ -42,7 +42,6 @@ class SubscriptionController extends \BaseController {
 		}
 		catch(Exception $e)
 		{
-			dd($e->getMessage());
 			return Redirect::route('subscription')->withInput()->withErrors(['_global' => 'Something went wrong! Please try again later.']);
 		}
 	}
