@@ -112,8 +112,31 @@
 </div>
 <hr />
 <div class="row">
-	<div class="col-md-12">
-		<p>Remember, those two guys in the basement are actually doing their shit. Every fucking day. And you do not need January 1st to change your life.</p>
+	<div class="col-md-6">
+		<p>Remember, those two guys in the basement are actually doing their shit. Every single day. That's the hustle, my friends.</p>
+		<p>And built by such hustlers are these 3 products I loved on ProductHunt.</p>
+	</div>
+	<div class="col-md-6">
+		<section class="panel">
+			<header class="panel-heading">ProductHunts I Loved</header>
+			<ul class="list-group no-radius">
+				<li class="list-group-item">
+					<span class="label bg-success">1</span>
+					<a href="http://www.producthunt.com/posts/habit-list">HabitList</a>
+					<p>Manage habits w/ a clean interface showing streaks & trends</p>
+				</li>
+				<li class="list-group-item">
+					<span class="label bg-warning">2</span>
+					<a href="http://www.producthunt.com/posts/snabbt-js">Snabbt.js</a>
+					<p>A minimalistic animation library</p>
+				</li>
+				<li class="list-group-item">
+					<span class="label bg-light">3</span>
+					<a href="http://www.producthunt.com/posts/producthop">ProductHop</a>
+					<p>Timehop for Product Hunt</p>
+				</li>
+			</ul>
+		</section>
 	</div>
 </div>
 @endsection
