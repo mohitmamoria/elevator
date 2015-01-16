@@ -10,7 +10,10 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
+Route::get('sample/refactor', function()
+{
+	return View::make('editions.sample2');
+});
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
 Route::get('join', ['as' => 'subscription', 'uses' => 'SubscriptionController@create']);
 Route::post('join', ['as' => 'subscription', 'uses' => 'SubscriptionController@join']);

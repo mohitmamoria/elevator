@@ -28,6 +28,23 @@ a {
 	background: #a60a28;
 	color: #fff;
 }
+.panel {
+	border-radius: 5px;
+}
+.bg-edition {
+	background: #dadfe1;
+	color: #333;
+}
+h1.heading-edition {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 55px;
+}
+.text-edition {
+	line-height: 28px;
+	font-size: 17px;
+	font-family: "Merriweather", "Open Sans", sans-serif;
+}
 
 /**
  * Head Banner
