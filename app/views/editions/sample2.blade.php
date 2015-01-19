@@ -23,7 +23,7 @@ bg-edition
 	
 	<article class="text-edition">
 		<h2 class="heading-edition">Hustle</h2>
-		<p>Who puts it better than everyone else? <strong>Gary Vaynerchuk</strong>. If you want to do one favour to yourself today, then follow this guy everywhere you can - <a href="http://twitter.com/mohitmamoria">Twitter</a>, <a href="https://www.youtube.com/user/GaryVaynerchuk">Youtube</a> and <a href="https://www.facebook.com/gary">Facebook</a>.</p>
+		<p>Who puts it better than everyone else? <strong>Gary Vaynerchuk</strong>. If you want to do one favour to yourself today, then follow this guy everywhere you can - <a href="http://twitter.com/garyvee">Twitter</a>, <a href="https://www.youtube.com/user/GaryVaynerchuk">Youtube</a> and <a href="https://www.facebook.com/gary">Facebook</a>.</p>
 		<blockquote class="block">
 			<p>The dream is free, but the hustle is sold separately.</p>
 			<small>Gary Vaynerchuk</small>
