@@ -28,7 +28,7 @@
 	<meta name="twitter:description" content="A tiny email filled with knowledge across the Twitter, Youtube, Blogs, Books and People. I will collect, transcribe and summarize the wisdom for you to consume under 5-minutes.">
 	<meta name="twitter:image:src" content="http://elevator.horntell.com/assets/images/elevator-inverted.png">
 </head>
-<body>
+<body class="@yield('body-classes')">
 
 @yield('content')
 

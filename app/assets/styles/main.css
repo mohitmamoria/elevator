@@ -148,7 +148,6 @@ div.segment-box {
  * Edition Styles
  */
 .title-area {
-	padding: 50px 0px;
 	text-align: center;
 }
 article {
@@ -162,4 +161,11 @@ article.summary {
 	margin-left: -65px;
 	margin-right: -65px;
 	font-size: 16px;
+}
+.edition-subscription-area {
+	padding-bottom: 0px;
+}
+.edition-subscription-area > section {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
