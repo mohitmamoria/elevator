@@ -9,6 +9,25 @@ body {
 	background: #a60a28;
 	color: #fff;	
 }
+blockquote.block {
+	font-family: "Merriweather", "Open Sans", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	background: #634CB3;
+	margin-left: -15px;
+	margin-right: -15px;
+	border-left: 8px solid #230781;
+}
+.spaced-out blockquote.block, .spaced-out-h blockquote.block {
+	margin-left: -65px;
+	margin-right: -65px;
+}
+blockquote.block small {
+	color: #fff;
+	font-size: 14px;
+	font-style: italic;
+}
 
 /**
  * Helpers
@@ -31,19 +50,54 @@ a {
 .panel {
 	border-radius: 5px;
 }
+.spaced-out {
+	padding: 65px;
+}
+.spaced-out-h {
+	padding-left: 65px;
+	padding-right: 65px;
+}
+.spaced-out-v {
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
 .bg-edition {
 	background: #dadfe1;
 	color: #333;
 }
+.heading-edition {
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	line-height: 40px;
+}
 h1.heading-edition {
 	font-size: 40px;
-	font-weight: bold;
-	line-height: 55px;
+}
+h2.heading-edition {
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+	font-size: 35px;
+}
+h3.heading-edition {
+	font-size: 28px;
+}
+h4.heading-edition {
+	font-size: 20px;
+}
+h5.heading-edition {
+	font-size: 16px;
+}
+h6.heading-edition {
+	font-size: 14px;
 }
 .text-edition {
 	line-height: 28px;
 	font-size: 17px;
 	font-family: "Merriweather", "Open Sans", sans-serif;
+}
+.edition-meta {
+	font-family: "Courier New", sans-serif;
+	text-transform: uppercase;
 }
 
 /**
@@ -96,4 +150,16 @@ div.segment-box {
 .title-area {
 	padding: 50px 0px;
 	text-align: center;
+}
+article {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+article.summary {
+	border: 1px solid #129951;
+	border-left-width: 8px;
+	border-right-width: 0px;
+	margin-left: -65px;
+	margin-right: -65px;
+	font-size: 16px;
 }
