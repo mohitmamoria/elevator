@@ -13,19 +13,19 @@
 	<meta property="og:title" content="Elevator (by Horntell)">
 	<meta property="og:url" content="http://elevator.horntell.com">
 	<meta property="og:image" content="http://elevator.horntell.com/assets/images/elevator-inverted.png">
-	<meta property="og:description" content="Hours of startup wisdom from influencers in 5-minutes. Twice a week.">
+	<meta property="og:description" content="Hours of startup wisdom from influencers in 5-minutes every Friday.">
 
 	<!-- Google+ Metadata -->
 	<meta itemprop="name" content="Elevator (by Horntell)">
 	<meta itemprop="image" content="http://elevator.horntell.com/assets/images/elevator-inverted.png">
-	<meta itemprop="description" content="Hours of startup wisdom from influencers in 5-minutes. Twice a week.">
+	<meta itemprop="description" content="Hours of startup wisdom from influencers in 5-minutes every Friday.">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@horntell">
 	<meta name="twitter:creator" content="@mohitmamoria">
-	<meta name="twitter:title" content="Hours of startup wisdom from influencers in 5-minutes. Twice a week.">
-	<meta name="twitter:description" content="A tiny email filled with knowledge across the Twitter, Youtube, Blogs, Books and People. I will collect, transcribe and summarize the wisdom for you to consume under 5-minutes.">
+	<meta name="twitter:title" content="Hours of startup wisdom from influencers in 5-minutes every Friday.">
+	<meta name="twitter:description" content="A tiny email filled with knowledge across the Twitter, Youtube, Blogs, Books and People. I will collect, transcribe and summarize the wisdom for you to consume in under 5-minutes.">
 	<meta name="twitter:image:src" content="http://elevator.horntell.com/assets/images/elevator-inverted.png">
 </head>
 <body class="@yield('body-classes')">

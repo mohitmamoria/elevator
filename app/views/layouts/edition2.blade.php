@@ -23,7 +23,7 @@ Elevator (by Horntell)
 				</div>
 				<div class="panel-footer edition-subscription-area">
 					<section class="bg-brand-primary text-center wrapper pull-in">
-						<h2 class="font-bold">How about receiving these in your inbox?</h2>
+						<h2 class="font-bold">How about receiving this in your inbox?</h2>
 						<h3 class="font-thin">every friday</h3>
 						<p><em>(nothing dull ever, promise)</em></p>
 						<div class="form-group">

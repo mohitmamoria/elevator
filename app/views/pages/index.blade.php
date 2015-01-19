@@ -14,8 +14,8 @@ Elevator (by Horntell)
 	</section>
 
 	<section class="secondary-banner">
-		<h3 class="font-thin">A tiny email filled with knowledge, delivered twice a week.</h3>
-		<p class="font-thin">(first edition releasing on February 3, 2015)</p>
+		<h3 class="font-thin">A tiny email filled with knowledge, delivered every Friday.</h3>
+		<p class="font-thin">(first edition releasing on February 6, 2015)</p>
 		<div class="form-group container wrapper">
 			<form action="/join" method="POST">
 				<div class="col-md-8 col-md-offset-2">

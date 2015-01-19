@@ -10,7 +10,7 @@ class EditionController extends \BaseController {
 	 */
 	public function show($slug)
 	{
-		return View::make('editions.sample');
+		return View::make('editions.sample2');
 	}
 
 
