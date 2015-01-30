@@ -29,7 +29,7 @@ Route::filter('sample', function($request)
 {
 	if($request->parameter('slug') === 'sample')
 	{
-		return Redirect::route('edition.show', ['slug' => 'stop-talking-start-doing']);
+		return Redirect::route('edition.show', ['slug' => Edition::getSample()->slug]);
 	}
 });
 

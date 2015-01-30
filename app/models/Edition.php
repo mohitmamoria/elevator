@@ -10,19 +10,31 @@ class Edition extends Eloquent {
 
 	public static function findBySlug($slug)
 	{
-		$edition = static::where('slug', $slug)
-					->whereNotNull('published_at')
-					->first();
+		$edition = static::published()
+			->where('slug', $slug)
+			->first();
 
 		if( ! is_null($edition)) return $edition;
 
 		throw (new ModelNotFoundException)->setModel(get_called_class());
 	}
 
+	public static function getSample()
+	{
+		return static::published()
+			->where('is_sample', true)
+			->first();
+	}
+
 	public function setNameAttribute($name)
 	{
 		$this->attributes['name'] = $name;
 		$this->attributes['slug'] = Str::slug($name);
+	}
+
+	public function scopePublished($query)
+	{
+		return $query->whereNotNull('published_at');
 	}
 
 }
