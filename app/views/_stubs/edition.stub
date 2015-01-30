@@ -1,0 +1,7 @@
+@extends('layouts.edition')
+
+{{-- **NAME** --}}
+
+@section('edition')
+	{{-- Create A Great Edition! :) --}}
+@endsection
