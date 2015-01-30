@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+
 class EditionController extends \BaseController {
 
 	/**
@@ -10,7 +12,16 @@ class EditionController extends \BaseController {
 	 */
 	public function show($slug)
 	{
-		return View::make('editions.sample2');
+		try
+		{
+			$edition = Edition::findbySlug($slug);
+
+			return View::make("editions.{$edition->slug}", compact('edition'));
+		}
+		catch(ModelNotFoundException $e)
+		{
+			return Redirect::to('home');
+		}
 	}
 
 

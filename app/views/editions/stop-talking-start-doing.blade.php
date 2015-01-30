@@ -1,17 +1,5 @@
 @extends('layouts.edition2')
 
-@section('title')
-Stop Talking, Start Doing!
-@endsection
-
-@section('date')
-January 2, 2015
-@endsection
-
-@section('body-classes')
-bg-edition
-@endsection
-
 @section('edition')
 	<article class="text-edition">
 		<p>Winters - the perfect season to laze around! But do you know, there are two guys at some far-off place, sitting in a basement, wrapped in blankets and <em>doing</em> the thing that you're only <em>planning</em> to do tomorrow.</p>

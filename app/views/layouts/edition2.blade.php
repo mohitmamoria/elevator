@@ -1,7 +1,15 @@
 @extends('layouts.default')
 
 @section('title')
-Elevator (by Horntell)
+{{ $edition->name }}
+@endsection
+
+@section('date')
+{{ $edition->published_at->toFormattedDateString() }}
+@endsection
+
+@section('body-classes')
+bg-edition
 @endsection
 
 @section('content')
