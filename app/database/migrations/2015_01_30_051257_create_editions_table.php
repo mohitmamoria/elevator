@@ -16,7 +16,7 @@ class CreateEditionsTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('name', 255);
-			$table->string('slug', 255);
+			$table->string('slug', 255)->unique();
 			$table->boolean('is_sample', false);
 			$table->timestamps();
 			$table->timestamp('published_at')->nullable();
