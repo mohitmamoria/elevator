@@ -18,7 +18,10 @@ class EditionController extends \BaseController {
 	{
 		try
 		{
-			if($this->isRequestingSample($slug)) $slug = self::SAMPLE_EDITION;
+			if($this->isRequestingSample($slug))
+			{
+				return Redirect::route('edition.show', ['slug' => self::SAMPLE_EDITION]);
+			}
 
 			$edition = Edition::findbySlug($slug);
 
