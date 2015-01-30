@@ -22,6 +22,17 @@ App::after(function($request, $response)
 	//
 });
 
+/**
+ * Redirecting to Sample Edition
+ */
+Route::filter('sample', function($request)
+{
+	if($request->parameter('slug') === 'sample')
+	{
+		return Redirect::route('edition.show', ['slug' => 'stop-talking-start-doing']);
+	}
+});
+
 /*
 |--------------------------------------------------------------------------
 | Authentication Filters

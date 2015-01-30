@@ -4,10 +4,6 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class EditionController extends \BaseController {
 
-	const SAMPLE_SLUG = 'sample';
-
-	const SAMPLE_EDITION = 'stop-talking-start-doing';
-
 	/**
 	 * Display the specified resource.
 	 *
@@ -18,11 +14,6 @@ class EditionController extends \BaseController {
 	{
 		try
 		{
-			if($this->isRequestingSample($slug))
-			{
-				return Redirect::route('edition.show', ['slug' => self::SAMPLE_EDITION]);
-			}
-
 			$edition = Edition::findbySlug($slug);
 
 			return View::make("editions.{$edition->slug}", compact('edition'));
@@ -31,11 +22,6 @@ class EditionController extends \BaseController {
 		{
 			return Redirect::to('home');
 		}
-	}
-
-	private function isRequestingSample($slug)
-	{
-		return $slug === self::SAMPLE_SLUG;
 	}
 
 }
