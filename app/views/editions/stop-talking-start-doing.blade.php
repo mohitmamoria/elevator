@@ -1,4 +1,4 @@
-@extends('layouts.edition2')
+@extends('layouts.edition')
 
 @section('edition')
 	<article class="text-edition">
