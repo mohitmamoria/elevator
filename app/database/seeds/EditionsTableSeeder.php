@@ -12,7 +12,7 @@ class EditionsTableSeeder extends Seeder {
 		Edition::create([
 			'name' => 'Stop Talking, Start Doing!',
 			'is_sample' => true,
-			'published_at' => '2014-01-02 00:00:00'
+			'published_at' => '2015-01-02 00:00:00'
 		]);
 	}
 
