@@ -26,10 +26,27 @@ class Edition extends Eloquent {
 			->first();
 	}
 
+	public static function publish($id)
+	{
+		// Find the unpublished edition
+		$edition = static::unpublished()->findOrFail($id);
+
+		// Publish it
+		$edition->published_at = Carbon\Carbon::now();
+		$edition->save();
+
+		return $edition;
+	}
+
 	public function setNameAttribute($name)
 	{
 		$this->attributes['name'] = $name;
 		$this->attributes['slug'] = Str::slug($name);
+	}
+
+	public function scopeUnpublished($query)
+	{
+		return $query->whereNull('published_at');
 	}
 
 	public function scopePublished($query)
