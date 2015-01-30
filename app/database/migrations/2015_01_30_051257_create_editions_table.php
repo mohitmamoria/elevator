@@ -17,6 +17,7 @@ class CreateEditionsTable extends Migration {
 			$table->increments('id');
 			$table->string('name', 255);
 			$table->string('slug', 255);
+			$table->boolean('is_sample', false);
 			$table->timestamps();
 			$table->timestamp('published_at')->nullable();
 		});
@@ -31,7 +32,7 @@ class CreateEditionsTable extends Migration {
 	{
 		Schema::table('editions', function(Blueprint $table)
 		{
-			//
+			$table->drop();
 		});
 	}
 
