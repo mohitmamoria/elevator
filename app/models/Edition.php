@@ -8,11 +8,18 @@ class Edition extends Eloquent {
 
 	protected $dates = ['created_at', 'updated_at', 'published_at'];
 
-	public static function findBySlug($slug)
+	public static function findBySlug($slug, $includeUnpublished = false)
 	{
-		$edition = static::published()
-			->where('slug', $slug)
-			->first();
+		if($includeUnpublished)
+		{
+			$edition = static::where('slug', $slug)->first();	
+		}
+		else
+		{
+			$edition = static::published()
+				->where('slug', $slug)
+				->first();
+		}
 
 		if( ! is_null($edition)) return $edition;
 

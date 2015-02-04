@@ -14,7 +14,9 @@ class EditionController extends \BaseController {
 	{
 		try
 		{
-			$edition = Edition::findbySlug($slug);
+			$includeUnpublished = Input::get('preview', 'no') === 'yes';
+
+			$edition = Edition::findbySlug($slug, $includeUnpublished);
 
 			return View::make("editions.{$edition->slug}", compact('edition'));
 		}
