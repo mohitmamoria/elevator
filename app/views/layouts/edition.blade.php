@@ -59,4 +59,5 @@ bg-edition
 
 @section('scripts')
 	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script async src="//connect.facebook.net/en_US/all.js#xfbml=1" charset="utf-8"></script>
 @endsection
