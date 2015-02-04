@@ -5,7 +5,7 @@
 @endsection
 
 @section('date')
-{{ $edition->published_at->toFormattedDateString() }}
+{{ $edition->published_at ? $edition->published_at->toFormattedDateString() : 'unpublished edition (previewing only)' }}
 @endsection
 
 @section('body-classes')
