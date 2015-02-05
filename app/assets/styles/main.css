@@ -197,6 +197,15 @@ span.wisdom-label {
 	padding: 0px 10px;
 	font-family: "Open Sans", sans-serif;
 }
+span.wisdom-label > a {
+	color: #333;
+	opacity: 0.2;
+	position: absolute;
+	left: -30px;
+}
+span.wisdom-label > a:hover {
+	opacity: 1;
+}
 .wisdom-green > span.wisdom-label {
 	background: #129951;
 	color: #fff;

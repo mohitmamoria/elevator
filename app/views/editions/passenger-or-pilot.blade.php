@@ -25,8 +25,8 @@
 		<p>Talking about saying a big fucking "No" to someone, let's see what we've got today.</p>
 	</article>
 
-	<article class="text-edition wisdom wisdom-green">
-		<span class="wisdom-label">Article</span>
+	<article class="text-edition wisdom wisdom-green" id="no-to-customer">
+		<span class="wisdom-label"><a href="#no-to-customer"><i class="fa fa-anchor"></i></a> Article</span>
 		<h4 class="heading-edition">How to Say "No" to a Customer Asking for a Discount</h4>
 		<p>This will happen a lot. People will ask discounts for a lot of reasons - "<em>we are bootstrapped</em>", "<em>we are a non-profit</em>", "<em>we are a very small team</em>".</p>
 
@@ -41,8 +41,8 @@
 		<a href="https://www.groovehq.com/learn/how-to-say-no-to-discount-requests" class="text-sm">Read Complete Post <i class="fa fa-angle-double-right"></i></a>
 	</article>
 
-	<article class="text-edition wisdom wisdom-red">
-		<span class="wisdom-label">Gary's Corner</span>
+	<article class="text-edition wisdom wisdom-red" id="gary-corner">
+		<span class="wisdom-label"><a href="#gary-corner"><i class="fa fa-anchor"></i></a> Gary's Corner</span>
 		<h4 class="heading-edition">"Smurf it up!"</h4>
 		<p>Gary Vaynerchuk has made the phrase popular. According to Gary - <em>"Do what you love. You can monetize anything."</em></p> This 35 seconds video is what you need to watch. :)
 		<iframe width="100%" height="480" src="https://www.youtube.com/embed/kgVh2c5r5JM?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -52,8 +52,8 @@
 		<p><em class="text-sm">No, I am not being paid to endorse him. I endorse him because I want to. I am a pilot. ;)</em></p>
 	</article>
 
-	<article class="text-edition wisdom wisdom-blue">
-		<span class="wisdom-label">Blog Post</span>
+	<article class="text-edition wisdom wisdom-blue" id="no-to-product">
+		<span class="wisdom-label"><a href="#no-to-product"><i class="fa fa-anchor"></i></a> Blog Post</span>
 		<h4 class="heading-edition">Product Strategy means saying "No"</h4>
 		<p>Building a great product doesn't mean hundreds of useful feature. It is about delivering a cohesive feature-set within well defined parameters.</p>
 
