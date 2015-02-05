@@ -19,7 +19,8 @@
 		<p>Inspired by Gary's style, I too once tried writing a blog post about hustle. Here's the whole post in under 140-words.</p>
 	</article>
 
-	<article class="summary text-edition spaced-out-h padder-v">
+	<article class="text-edition wisdom wisdom-green">
+		<span class="wisdom-label">Blog Post</span>
 		<h4 class="heading-edition">Want weekends off? Work your ass off, first!</h4>
 		<p>The post starts with a simple question - <strong>"What price are you ready to pay for your dreams?"</strong> And keeps the momentum up throughout by pressing the point that "things that are worth becoming your dream, should not and do not come for free". And the price for your dreams is the "work". You gotta work. Every. Single. Day.</p>
 
@@ -36,7 +37,8 @@
 		<p>And here's an interesting one from <a href="https://twitter.com/alexmturnbull">Alex Turnbull</a> - Founder of Groove.</p>
 	</article>
 
-	<article class="summary text-edition spaced-out-h padder-v">
+	<article class="text-edition wisdom wisdom-orange">
+		<span class="wisdom-label">Blog Post</span>
 		<h4 class="heading-edition">Why I Walked Away From a $12M Acquisition Offer 18 Months After Our Startup’s Launch</h4>
 		<p>This was the hardest decision Alex has ever made. The story is not how he got the offer or how he decline it, but why he declined it. Execs at a big software company approached Alex when they were doing monthly revenue of $70k and offered $12mn (14x annual revenue) to acquire. He owned more than 50% of the company and the offer was tempting but he declined. Here's why.</p>
 
