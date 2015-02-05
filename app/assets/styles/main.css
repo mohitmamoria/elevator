@@ -154,13 +154,32 @@ article {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
-article.summary {
-	border: 1px solid #129951;
-	border-left-width: 8px;
-	border-right-width: 0px;
+article.wisdom {
+	position: relative;
 	margin-left: -65px;
 	margin-right: -65px;
 	font-size: 16px;
+	padding: 15px 65px;
+}
+article.wisdom.wisdom-green {
+	border: 1px solid #129951;
+	border-left-width: 8px;
+	border-right-width: 0px;
+}
+article.wisdom.wisdom-red {
+	border: 1px solid #CB372B;
+	border-left-width: 8px;
+	border-right-width: 0px;
+}
+article.wisdom.wisdom-blue {
+	border: 1px solid #2E7DCA;
+	border-left-width: 8px;
+	border-right-width: 0px;
+}
+article.wisdom.wisdom-orange {
+	border: 1px solid #E77829;
+	border-left-width: 8px;
+	border-right-width: 0px;
 }
 .edition-subscription-area {
 	padding-bottom: 0px;
@@ -168,4 +187,29 @@ article.summary {
 .edition-subscription-area > section {
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+}
+span.wisdom-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom-right-radius: 15px;
+	font-size: 13px;
+	padding: 0px 10px;
+	font-family: "Open Sans", sans-serif;
+}
+.wisdom-green > span.wisdom-label {
+	background: #129951;
+	color: #fff;
+}
+.wisdom-red > span.wisdom-label {
+	background: #CB372B;
+	color: #fff;
+}
+.wisdom-blue > span.wisdom-label {
+	background: #2E7DCA;
+	color: #fff;
+}
+.wisdom-orange > span.wisdom-label {
+	background: #E77829;
+	color: #fff;
 }

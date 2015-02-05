@@ -13,7 +13,11 @@ gulp.task('clean', function() {
 	return gulp.src('public/assets', {read: false}).pipe(rimraf());
 });
 
-gulp.task('styles', ['clean'], function() {
+gulp.task('clean-styles', function() {
+	return gulp.src('public/assets/styles', {read: false}).pipe(rimraf());
+});
+
+gulp.task('styles', ['clean-styles'], function() {
 	return gulp.src([
 			'app/assets/styles/app.css',
 			'app/assets/styles/main.css',
@@ -47,4 +51,8 @@ gulp.task('default', ['scripts', 'styles', 'images'], function() {
 
 gulp.task('watch', function () {
     gulp.watch('app/assets/**/*', ['default']);
+});
+
+gulp.task('watch-styles', function() {
+	gulp.watch('app/assets/styles/**/*', ['styles']);
 });
