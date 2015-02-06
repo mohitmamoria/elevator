@@ -20,7 +20,7 @@ bg-edition
 			<hr />
 
 			@if($others->count() > 0)
-			<section class="hidden-sm">
+			<section class="hidden-xs hidden-sm">
 				<h5 class="font-bold">OTHER EDITIONS</h5>
 				<ul class="list-unstyled list-group">
 					@foreach($others as $other)
