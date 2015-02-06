@@ -184,10 +184,10 @@ article.wisdom.wisdom-orange {
 .edition-subscription-area {
 	padding-bottom: 0px;
 }
-.edition-subscription-area > section {
+/*.edition-subscription-area > section {
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-}
+}*/
 span.wisdom-label {
 	position: absolute;
 	top: 0;

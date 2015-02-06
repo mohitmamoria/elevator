@@ -71,6 +71,8 @@ bg-edition
 						</div>
 					</section>
 				</div>
+
+				@include('_partials.comments')
 			</div>
 		</div>
 	</div>
