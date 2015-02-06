@@ -42,13 +42,13 @@ bg-edition
 				</div>
 				<div class="panel-body spaced-out-h">
 					@yield('edition')
-					<nav>
-						<ul class="pager">
-							<li class="previous {{is_null($previous) ? 'disabled' : ''}}"><a href="{{ $previous->url or '#'}}"><span aria-hidden="true">&larr;</span> Older</a></li>
-							<li class="next {{is_null($next) ? 'disabled' : ''}}"><a href="{{ $next->url or '#'}}">Newer <span aria-hidden="true">&rarr;</span></a></li>
-						</ul>
-					</nav>
 				</div>
+				<nav class="wrapper">
+					<ul class="pager">
+						<li class="previous {{is_null($previous) ? 'disabled' : ''}}"><a href="{{ $previous->url or '#'}}"><span aria-hidden="true">&larr;</span> Older</a></li>
+						<li class="next {{is_null($next) ? 'disabled' : ''}}"><a href="{{ $next->url or '#'}}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+					</ul>
+				</nav>
 				<div class="panel-footer edition-subscription-area">
 					<section class="bg-brand-primary text-center wrapper pull-in">
 						<h2 class="font-bold">How about receiving this in your inbox?</h2>
