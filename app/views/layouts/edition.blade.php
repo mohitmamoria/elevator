@@ -17,6 +17,20 @@ bg-edition
 	<div class="row">
 		<div class="col-md-4">
 			<a href="/"><img src="/assets/images/elevator-inverted-small.png" alt="Elevator" class="img-responsive img-center"></a>
+			<hr />
+
+			@if($others->count() > 0)
+				<section class="hidden-sm">
+					<h5 class="font-bold">OTHER EDITIONS</h5>
+					<ul class="list-unstyled list-group">
+						@foreach($others as $other)
+							<li class="list-group-item">
+								<a href="/editions/{{ $other->slug }}">{{ $other->name }}</a>
+							</li>
+						@endforeach
+					</ul>
+				</section>
+			@endif
 		</div>
 		<div class="col-md-8">
 			<div class="panel no-borders edition">

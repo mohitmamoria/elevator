@@ -15,3 +15,5 @@ Route::get('join', ['as' => 'subscription', 'uses' => 'SubscriptionController@cr
 Route::post('join', ['as' => 'subscription', 'uses' => 'SubscriptionController@join']);
 Route::get('join/thank-you', ['as' => 'subscribed', 'uses' => 'SubscriptionController@done']);
 Route::get('editions/{slug}', ['before' => 'sample', 'as' => 'edition.show', 'uses' => 'EditionController@show']);
+
+View::composer('layouts.edition', 'Elevator\Composers\EditionComposer');

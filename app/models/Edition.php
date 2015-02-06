@@ -33,6 +33,20 @@ class Edition extends Eloquent {
 			->first();
 	}
 
+	public static function previous($count = 5, $except = null)
+	{
+		if($except)
+		{
+			$query = static::published()->where('id', '<>', $except->id);
+		}
+		else
+		{
+			$query = static::published();
+		}
+
+		return $query->latest()->take($count)->get();
+	}
+
 	public static function publish($id)
 	{
 		// Find the unpublished edition
