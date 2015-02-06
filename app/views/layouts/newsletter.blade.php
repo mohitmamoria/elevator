@@ -794,7 +794,7 @@ body.outlook p {
 												<table class="twelve columns">
 													<tr>
 														<td class="six sub-columns">
-															<img src="/assets/images/elevator-icon-small.png" alt="Elevator">
+															<img src="http://elevator.horntell.com/assets/images/elevator-icon-small.png" alt="Elevator">
 														</td>
 														<td class="six sub-columns last" style="text-align:right; vertical-align:middle;">
 														  <span class="template-label">ELEVATOR'S NEW EDITION IS NOW LIVE.</span>
@@ -844,7 +844,7 @@ body.outlook p {
 											<table class="twelve columns">
 												<tr>
 													<td class="panel">
-														You can find the latest edition here: <a href="#"><strong>Passenger or Pilot »</strong></a>
+														You can find the latest edition here: <a href="http://elevator.horntell.com/editions/passenger-or-pilot"><strong>Passenger or Pilot »</strong></a>
 													</td>
 													<td class="expander"></td>
 												</tr>
@@ -883,7 +883,7 @@ body.outlook p {
 															Mohit<br/>
 															CEO, Horntell<br/>
 														</p>
-														<p>PS: <a href>Here's a handy pre-populated tweet</a> to help you share the edition.</p>
+														<p>PS: <a href="http://twitter.com/intent/tweet?text=I've%20just%20made%20the%20choice%20to%20be%20the%20pilot%20of%20my%20own%20life.%20No%20more%20a%20mere%20passenger.&amp;hashtags=PilotOfLife&amp;via=horntell&amp;url=http%3A%2F%2Felevator.horntell.com/editions/passenger-or-pilot">Here's a handy pre-populated tweet</a> to help you share the edition.</p>
 													</td>
 													<td class="expander"></td>
 												</tr>
