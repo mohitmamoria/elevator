@@ -33,7 +33,7 @@ class Edition extends Eloquent {
 			->first();
 	}
 
-	public static function previous($count = 5, $except = null)
+	public static function others($count = 5, $except = null)
 	{
 		if($except)
 		{
@@ -45,6 +45,22 @@ class Edition extends Eloquent {
 		}
 
 		return $query->latest()->take($count)->get();
+	}
+
+	public static function nextTo($edition)
+	{
+		return static::published()
+			->where('id', '>', $edition->id)
+			->orderBy('id', 'asc')
+			->first();
+	}
+
+	public static function previousTo($edition)
+	{
+		return static::published()
+			->where('id', '<', $edition->id)
+			->orderBy('id', 'desc')
+			->first();
 	}
 
 	public static function publish($id)
@@ -63,6 +79,11 @@ class Edition extends Eloquent {
 	{
 		$this->attributes['name'] = $name;
 		$this->attributes['slug'] = Str::slug($name);
+	}
+
+	public function getUrlAttribute()
+	{
+		return Config::get('app.url') . '/editions/' . $this->slug;
 	}
 
 	public function scopeUnpublished($query)

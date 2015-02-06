@@ -20,16 +20,16 @@ bg-edition
 			<hr />
 
 			@if($others->count() > 0)
-				<section class="hidden-sm">
-					<h5 class="font-bold">OTHER EDITIONS</h5>
-					<ul class="list-unstyled list-group">
-						@foreach($others as $other)
-							<li class="list-group-item">
-								<a href="/editions/{{ $other->slug }}">{{ $other->name }}</a>
-							</li>
-						@endforeach
-					</ul>
-				</section>
+			<section class="hidden-sm">
+				<h5 class="font-bold">OTHER EDITIONS</h5>
+				<ul class="list-unstyled list-group">
+					@foreach($others as $other)
+					<li class="list-group-item">
+						<a href="/editions/{{ $other->slug }}">{{ $other->name }}</a>
+					</li>
+					@endforeach
+				</ul>
+			</section>
 			@endif
 		</div>
 		<div class="col-md-8">
@@ -42,6 +42,12 @@ bg-edition
 				</div>
 				<div class="panel-body spaced-out-h">
 					@yield('edition')
+					<nav>
+						<ul class="pager">
+							<li class="previous {{is_null($previous) ? 'disabled' : ''}}"><a href="{{ $previous->url or '#'}}"><span aria-hidden="true">&larr;</span> Older</a></li>
+							<li class="next {{is_null($next) ? 'disabled' : ''}}"><a href="{{ $next->url or '#'}}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+						</ul>
+					</nav>
 				</div>
 				<div class="panel-footer edition-subscription-area">
 					<section class="bg-brand-primary text-center wrapper pull-in">
@@ -72,6 +78,6 @@ bg-edition
 @endsection
 
 @section('scripts')
-	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	<script async src="//connect.facebook.net/en_US/all.js#xfbml=1" charset="utf-8"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="//connect.facebook.net/en_US/all.js#xfbml=1" charset="utf-8"></script>
 @endsection
