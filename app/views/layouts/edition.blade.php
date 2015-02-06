@@ -25,7 +25,7 @@ bg-edition
 				<ul class="list-unstyled list-group">
 					@foreach($others as $other)
 					<li class="list-group-item">
-						<a href="/editions/{{ $other->slug }}">{{ $other->name }}</a>
+						<a href="{{ $other->url }}">{{ $other->name }}</a>
 					</li>
 					@endforeach
 				</ul>
