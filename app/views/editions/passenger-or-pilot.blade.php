@@ -52,6 +52,15 @@
 		<p><em class="text-sm">No, I am not being paid to endorse him. I endorse him because I want to. I am a pilot. ;)</em></p>
 	</article>
 
+	<article class="text-edition">
+		<blockquote class="block">
+			<p>We either make ourselves miserable or we make ourselves strong. The amount of work is the same.</p>
+			<small>Carlos Castenada</small>
+		</blockquote>
+		<p>Because the amount of work is same whether you follow your heart or someone else's brain, it makes more sense to chase the your own dreams.</p>
+		<p>As startups, we are very vulnerable to trap ourselves in the <em>endless loop of features</em>. It means adding features in our products until it becomes an unicorn who can roar like a lion, fly like a pigeon, navigate in dark like bats and finally pur like your cat. Let's see why NOT to do it.</p>
+	</article>
+
 	<article class="text-edition wisdom wisdom-blue" id="no-to-product">
 		<span class="wisdom-label"><a href="#no-to-product"><i class="fa fa-anchor"></i></a> Blog Post</span>
 		<h4 class="heading-edition">Product Strategy means saying "No"</h4>
@@ -75,16 +84,16 @@
 		<a href="http://blog.intercom.io/product-strategy-means-saying-no" class="text-sm">Read Complete Post <i class="fa fa-angle-double-right"></i></a>
 	</article>
 
-	<article class="text-edition">
-		<h2 class="heading-edition">Tid-bits</h2>
-		<blockquote class="block">
-			<p>We either make ourselves miserable or we make ourselves strong. The amount of work is the same.</p>
-			<small>Carlos Castenada</small>
-		</blockquote>
-		
-		<img src="/assets/images/passenger-or-pilot/things-matter-most.jpg" alt="Be like a postage stamp." class="img-center img-responsive img-thumbnail">
+	<article class="text-edition wisdom wisdom-orange" id="things-that-matter">
+		<span class="wisdom-label"><a href="#things-that-matter"><i class="fa fa-anchor"></i></a>Randoms</span>
+		<h4 class="heading-edition">Things That Matter</h4>
+		<img src="/assets/images/passenger-or-pilot/things-matter-most.jpg" alt="Things that matter most." class="img-center img-responsive img-thumbnail">
 		<p class="text-center text-xs">"The ONE Thing" by Gary Keller</p>
-
+		<hr />
+		<p>And this one comes at the perfect time - in the Valentine's month.</p>
+		<blockquote class="twitter-tweet tw-align-center" lang="en"><p>Crying because you haven&#39;t got a valentine, but you still haven&#39;t handed in your assignment that was due in December ? Priorities b</p>&mdash; - (@goldiephy) <a href="https://twitter.com/goldiephy/status/562932395645886468">February 4, 2015</a></blockquote>
+		<hr />
+		<p>And finally, don't hold yourself back any more. If you're delaying someone's firing for a long time now - do it now. (That sounded so rude!)</p>
 		<img src="/assets/images/passenger-or-pilot/start-the-conversation.jpg" alt="Be like a postage stamp." class="img-center img-responsive img-thumbnail">
 		<p class="text-center text-xs"><a href="http://movemequotes.tumblr.com/post/109970905327/one-conversation-can-change-everything-more">Source</a></p>
 	</article>
@@ -92,6 +101,7 @@
 	<hr />
 
 	<article class="text-edition">
+		<h3 class="heading-edition">In closing</h3>
 		<p>Like a flight, in life too, we're going end up at the same destination eventually - facing <strong>death</strong>. But we always remember people by the way they lived, not how they died. How would you like to be remembered - as the pilot or a mere passenger?</p>
 
 		<p>Tell the world you are a pilot! <span class="text-sm">(and we'll help spread the word)</span></p>

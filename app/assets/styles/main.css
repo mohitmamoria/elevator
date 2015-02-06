@@ -192,7 +192,7 @@ span.wisdom-label {
 	position: absolute;
 	top: 0;
 	left: 0;
-	border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 5px;
 	font-size: 13px;
 	padding: 0px 10px;
 	font-family: "Open Sans", sans-serif;
@@ -201,7 +201,7 @@ span.wisdom-label > a {
 	color: #333;
 	opacity: 0.2;
 	position: absolute;
-	left: -30px;
+	right: -20px;
 }
 span.wisdom-label > a:hover {
 	opacity: 1;
