@@ -28,6 +28,22 @@ blockquote.block small {
 	font-size: 14px;
 	font-style: italic;
 }
+@media (max-width: 768px) {
+	blockquote.block {
+		font-size: 16px;
+	}
+
+	.spaced-out blockquote.block, .spaced-out-h blockquote.block {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+	blockquote.block small {
+		font-size: 12px;
+	}
+}
+}
+
 
 /**
  * Helpers
@@ -56,6 +72,12 @@ a {
 .spaced-out-h {
 	padding-left: 65px;
 	padding-right: 65px;
+}
+@media (max-width: 768px) {
+	.spaced-out-h {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 .spaced-out-v {
 	padding-top: 65px;
@@ -94,6 +116,29 @@ h6.heading-edition {
 	line-height: 28px;
 	font-size: 17px;
 	font-family: "Merriweather", "Open Sans", sans-serif;
+}
+@media only screen and (max-width: 500px) {
+	h1.heading-edition {
+		font-size: 28px;
+	}
+	h2.heading-edition {
+		font-size: 23px;
+	}
+	h3.heading-edition {
+		font-size: 20px;
+	}
+	h4.heading-edition {
+		font-size: 17px;
+	}
+	h5.heading-edition {
+		font-size: 14px;
+	}
+	h6.heading-edition {
+		font-size: 12px;
+	}
+	.text-edition {
+		font-size: 15px;
+	}
 }
 .edition-meta {
 	font-family: "Courier New", sans-serif;
@@ -160,6 +205,14 @@ article.wisdom {
 	margin-right: -65px;
 	font-size: 16px;
 	padding: 15px 65px;
+}
+@media (max-width: 768px) {
+	article.wisdom {
+		margin-left: -20px;
+		margin-right: -20px;
+		font-size: 14px;
+		padding: 15px 10px;
+	}	
 }
 article.wisdom.wisdom-green {
 	border: 1px solid #129951;
