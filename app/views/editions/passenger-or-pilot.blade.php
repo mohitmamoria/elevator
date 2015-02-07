@@ -45,7 +45,9 @@
 		<span class="wisdom-label"><a href="#gary-corner"><i class="fa fa-anchor"></i></a> Gary's Corner</span>
 		<h4 class="heading-edition">"Smurf it up!"</h4>
 		<p>Gary Vaynerchuk has made the phrase popular. According to Gary - <em>"Do what you love. You can monetize anything."</em></p> This 35 seconds video is what you need to watch. :)
-		<iframe width="100%" height="480" src="https://www.youtube.com/embed/kgVh2c5r5JM?rel=0" frameborder="0" allowfullscreen></iframe>
+		<div class="video-wrapper">
+			<iframe width="100%" height="480" src="https://www.youtube.com/embed/kgVh2c5r5JM?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
 		<p>I will strongly recommend you to subscribe to Gary Vaynerchuk's youtube channel and get the <strong>absolute raw</strong> knowledge. No bullshit.</p>
 		<script src="https://apis.google.com/js/platform.js"></script>
 		<div class="g-ytsubscribe" data-channel="GaryVaynerchuk" data-layout="full" data-count="default"></div>
