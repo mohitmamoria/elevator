@@ -26,6 +26,13 @@ class Edition extends Eloquent {
 		throw (new ModelNotFoundException)->setModel(get_called_class());
 	}
 
+	public static function getLatest()
+	{
+		return static::published()
+			->orderBy('published_at', 'desc')
+			->first();
+	}
+
 	public static function getSample()
 	{
 		return static::published()

@@ -17,3 +17,4 @@ Route::get('join/thank-you', ['as' => 'subscribed', 'uses' => 'SubscriptionContr
 Route::get('editions/{slug}', ['before' => 'sample', 'as' => 'edition.show', 'uses' => 'EditionController@show']);
 
 View::composer('layouts.edition', 'Elevator\Composers\EditionComposer');
+View::composer('pages.index', 'Elevator\Composers\HomeComposer');
