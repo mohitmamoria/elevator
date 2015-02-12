@@ -103,7 +103,7 @@
 
 	<article class="text-edition">
 		<h3 class="heading-edition">In closing</h3>
-		<p>Oh, and it's Valentine's Day. Be it the matters of business or hearts, <strong>little things has big impact</strong>. The time has changed - everyone has <a href="/editions/passenger-or-pilot">choices</a>. To make them choose to listen to you, give them a better reason than, "Because I am speaking".</p>
+		<p>Oh, and it's Valentine's Weekend. Be it the matters of business or hearts, <strong>little things has big impact</strong>. The time has changed - everyone has <a href="/editions/passenger-or-pilot">choices</a>. To make them choose to listen to you, give them a better reason than, "Because I am speaking".</p>
 
 		<p>When little, do the little things - because they touch <span class="text-danger">♥</span>s.</p>
 
