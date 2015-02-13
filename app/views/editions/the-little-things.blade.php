@@ -73,15 +73,15 @@
 			<p>More diffident founders ask "Will you try our beta?" and if the answer is yes, they say "Great, we'll send you a link." But the Collison brothers weren't going to wait. When anyone agreed to try Stripe they'd say "Right then, give me your laptop" and set them up on the spot.</p>
 		</blockquote>
 
-		<p>This approach doesn't scale when you recruit your 1000th user, but all scalable tricks don't work when you recruit your 2nd user. When small, <strong>do things that do not scale</strong>, because you can.</p>
+		<p>This approach doesn't scale when you recruit your 1000th user, but those scalable tricks don't work when you recruit your 2nd user. When small, <strong>do things that do not scale</strong>, because you can.</p>
 
-		<p>Like most small things, they aren't much individually, but when you do a lot of small things, they make a big impact. This is how exactly <a href="https://twitter.com/alexmturnbull">Alex</a> grew to 2,000+ customers.</p>
+		<p>Like most small things, they aren't significant individually, but when you do a lot of small things, they make a big impact. This is how exactly <a href="https://twitter.com/alexmturnbull">Alex</a> grew to 2,000+ customers.</p>
 	</article>
 
 	<article class="text-edition wisdom wisdom-green" id="unscalable-things">
 		<span class="wisdom-label"><a href="#unscalable-things"><i class="fa fa-anchor"></i></a> Blog Post</span>
 		<h4 class="heading-edition">How We Got 2,000+ Customers by Doing Things That Didn’t Scale</h4>
-		<p>Alex reached out to a lot of founders and asked the wrong questions: "How are you acquiring users?" He'd get some answers and ideas (referrals, upselling, advertising) but he was overwhelmed because these would help later-stage companies, not someone who's just getting started.</p>
+		<p>Alex reached out to a lot of founders and asked the wrong questions: "How are you acquiring users?" He'd get some answers and ideas (referrals, upselling, advertising) but he was overwhelmed because those ideas would help later-stage companies, not someone who's just getting started.</p>
 
 		<blockquote>
 			<p>"Look, I could tell you what we’re doing, but it wouldn’t help you. We have 10,000 customers. You have zero. You need to focus on your first five customers."</p>
@@ -93,7 +93,7 @@
 			<li><strong>Welcome Email</strong>: The super-personalised email that asks why they signed up for Groove (demands an action) is what got engagement started. Sending email is easy, but then reading the replies and acting on each of those is unscalable.</li>
 			<li><strong>Periodic Chats</strong>: He carries out 10-15 min calls with each of his user to understand them better and explain their roadmap. It is tough, but leaves an awesome impression.</li>
 			<li><strong>Engagement</strong>: Alex's blog is shit-popular and still he replies to every comment that he gets (~150 on every post).</li>
-			<li><strong>Scrapping</strong>: When a blogger compared Groove with other softwares and chose the other app as winner, he got in touch with him, asked the reason, fixed the problem and "earned him back". Scrapping every "one that got away" is not scalable, but worth it.</li>
+			<li><strong>Scrapping</strong>: When a blogger compared Groove with its competitors and chose the competitor as winner, he got in touch with him, asked the reason, fixed the problem and "earned him back". Scrapping every "one that got away" is not scalable, but worth it.</li>
 		</ul>
 
 		<a href="https://www.groovehq.com/blog/non-scaleable-growth-tactics" class="text-sm">Read Complete Post <i class="fa fa-angle-double-right"></i></a>
