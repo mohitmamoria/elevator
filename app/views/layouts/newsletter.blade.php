@@ -827,7 +827,7 @@ body.outlook p {
 														<p>Mohit Mamoria,</p>
 														<p class="lead">Yay, it's Friday!</p>
 														<p>Doing a startup is hard and you've done really well this week. Now, it's the time to lay back a bit and catch up with the world.</p>
-														<p>This week, we talk about how one can control his/her own life by making some important choices. And then, we also see, how we can apply these ideas directly to our businesses.</p>
+														<p>This week, we talk about how little things are very important to get big. We also learn why we should not unestimate the power that lies in doing things that don't scale.</p>
 													</td>
 													<td class="expander"></td>
 												</tr>
@@ -844,7 +844,7 @@ body.outlook p {
 											<table class="twelve columns">
 												<tr>
 													<td class="panel">
-														You can find the latest edition here: <a href="http://elevator.horntell.com/editions/passenger-or-pilot"><strong>Passenger or Pilot »</strong></a>
+														You can find the latest edition here: <a href="http://elevator.horntell.com/editions/the-little-things"><strong>The Little Things »</strong></a>
 													</td>
 													<td class="expander"></td>
 												</tr>
@@ -883,7 +883,7 @@ body.outlook p {
 															Mohit<br/>
 															CEO, Horntell<br/>
 														</p>
-														<p>PS: <a href="http://twitter.com/intent/tweet?text=I've%20just%20made%20the%20choice%20to%20be%20the%20pilot%20of%20my%20own%20life.%20No%20more%20a%20mere%20passenger.&amp;hashtags=PilotOfLife&amp;via=horntell&amp;url=http%3A%2F%2Felevator.horntell.com/editions/passenger-or-pilot">Here's a handy pre-populated tweet</a> to help you share the edition.</p>
+														<p>PS: <a href="http://twitter.com/intent/tweet?text=It's%20not%20a%20big%20banner%20that%20gets%20the%20attention.%20They're%20the%20little%20things%20that%20touch%20hearts.&amp;hashtags=TheLittleThings&amp;via=horntell&amp;url=http%3A%2F%2Felevator.horntell.com/editions/the-little-things">Here's a handy pre-populated tweet</a> to help you share the edition.</p>
 													</td>
 													<td class="expander"></td>
 												</tr>
