@@ -10,7 +10,7 @@ I collect so many knowledge nuggets from all over the places and I hope you'll f
 <strong>“You can't stay in your corner of the Forest waiting for others to come to you. You have to go to them sometimes.”</strong> - Winnie The Pooh
 <br/>
 <br/>
-Elevator's first edition will be released in February. Let's get to know each other a little more until then? :)
+Elevator's next edition will be released on coming Friday. Let's get to know each other a little more until then? :)
 <br/>
 <br/>
 -- <br/>
