@@ -107,7 +107,7 @@
 
 		<p>When little, do the little things - because they touch <span class="text-danger">♥</span>s.</p>
 
-		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=TheLittleThings&text=It's%20not%20the%20big%20banner%20that%20gets%20the%20attention.%20They're%20the%20little%20things%20that%20touch%20hearts." class="twitter-hashtag-button" data-size="large" data-related="mohitmamoria,horntell" data-url="http://elevator.horntell.com/editions/the-little-things">Tweet #TheLittleThings</a></p>
+		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=TheLittleThings&text=It's%20not%20a%20big%20banner%20that%20gets%20the%20attention.%20They're%20the%20little%20things%20that%20touch%20hearts." class="twitter-hashtag-button" data-size="large" data-related="mohitmamoria,horntell" data-url="http://elevator.horntell.com/editions/the-little-things">Tweet #TheLittleThings</a></p>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 	</article>
 @endsection
