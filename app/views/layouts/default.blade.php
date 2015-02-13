@@ -27,6 +27,8 @@
 	<meta name="twitter:title" content="Hours of startup wisdom from influencers in 5-minutes every Friday.">
 	<meta name="twitter:description" content="A tiny email filled with knowledge across the Twitter, Youtube, Blogs, Books and People. I will collect, transcribe and summarize the wisdom for you to consume in under 5-minutes.">
 	<meta name="twitter:image:src" content="http://elevator.horntell.com/assets/images/elevator-inverted.png">
+
+	<script src="//load.sumome.com/" data-sumo-site-id="29371c7cc7578fec7cb8d7dd1de72ad425924ab918f6ce0a080a4c40372aba7a" async></script>
 </head>
 <body class="@yield('body-classes')">
 
