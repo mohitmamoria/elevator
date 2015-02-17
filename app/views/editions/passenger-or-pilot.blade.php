@@ -108,6 +108,5 @@
 
 		<p>Tell the world you are a pilot! <span class="text-sm">(and we'll help spread the word)</span></p>
 		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=PilotOfLife&text=I've%20just%20made%20the%20choice%20to%20be%20the%20pilot%20of%20my%20own%20life.%20No%20more%20a%20mere%20passenger." class="twitter-hashtag-button" data-size="large" data-related="mohitmamoria,horntell" data-url="http://elevator.horntell.com/editions/passenger-or-pilot">Tweet #PilotOfLife</a></p>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 	</article>
 @endsection
