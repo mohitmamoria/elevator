@@ -33,7 +33,7 @@ bg-edition
 			@endif
 		</div>
 		<div class="col-md-8">
-			<div class="panel no-borders edition">
+			<div class="panel no-borders">
 				<div class="panel-heading spaced-out-h">
 					<h1 class="heading-edition">@yield('title')</h1>
 					<p class="edition-meta">
