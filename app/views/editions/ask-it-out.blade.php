@@ -115,6 +115,6 @@
 
 		<p>You aren't a mere dreamer. You're a <a href="/editions/stop-talking-start-doing">doer</a>.</p>
 
-		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=QuestionEverything&text=I%20don't%20just%20assume.%20I%20question.%20I%20a%20ready%20to%20be%20proved%20wrong.%20I'll%20learn." class="twitter-hashtag-button" data-size="large" data-related="horntell,mohitmamoria" data-url="http://elevator.horntell.com/editions/ask-it-out">Tweet #QuestionEverything</a></p>
+		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=QuestionEverything&text=I%20don't%20just%20assume.%20I%20question.%20I%20am%20proved%20wrong.%20I%20learn." class="twitter-hashtag-button" data-size="large" data-related="horntell,mohitmamoria" data-url="http://elevator.horntell.com/editions/ask-it-out">Tweet #QuestionEverything</a></p>
 	</article>
 @endsection
