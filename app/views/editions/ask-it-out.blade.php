@@ -106,6 +106,15 @@
 	</article>
 
 	<article class="text-edition">
-		<p></p>
+		<p>And this comes straight from the man himself - Steve Jobs.</p>
+
+		<blockquote>
+			<p>Most people don't get what they want because they never ask. I've never found anybody that didn't want to help me if I asked them for help. I've never found someone who'd said NO or hung up the phone when I called. I just asked. And when people ask me, I try to be as responsive to pay that debt of gratitude back. Most people never pick up the phone and call, most people don't ask. That's what separate the people who do things from the people who only dreams about them.</p>
+			<small>Steve Jobs</small>
+		</blockquote>
+
+		<p>You aren't a mere dreamer. You're a <a href="/editions/stop-talking-start-doing">doer</a>.</p>
+
+		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=QuestionEverything&text=I%20don't%20just%20assume.%20I%20question.%20I%20a%20ready%20to%20be%20proved%20wrong.%20I'll%20learn." class="twitter-hashtag-button" data-size="large" data-related="horntell,mohitmamoria" data-url="http://elevator.horntell.com/editions/ask-it-out">Tweet #QuestionEverything</a></p>
 	</article>
 @endsection
