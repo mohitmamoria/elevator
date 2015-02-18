@@ -66,6 +66,10 @@
 		<div class="video-wrapper">
 			<iframe width="100%" height="480" src="https://www.youtube.com/embed/VY_dDBtPuJo?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
+		<p>I will strongly recommend you to subscribe to Gary Vaynerchuk's youtube channel and get the <strong>absolute raw</strong> knowledge. No bullshit.</p>
+		<script src="https://apis.google.com/js/platform.js"></script>
+		<div class="g-ytsubscribe" data-channel="GaryVaynerchuk" data-layout="full" data-count="default"></div>
+		<p><em class="text-sm">I am not paid to endorse him. I do it because I want to give him back - even before he asks for it.</em></p>
 	</article>
 
 	<article class="text-edition">
