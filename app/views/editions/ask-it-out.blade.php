@@ -23,7 +23,7 @@
 			<small>Claude Levi-Strauss</small>
 		</blockquote>
 
-		<p>But, how do you ask the right questions? That's one right question to be asked.</p>
+		<p>But, how do you ask the right questions? That's one right question right there.</p>
 	</article>
 
 	<article class="text-edition wisdom wisdom-green" id="how-to-ask-good-questions">
