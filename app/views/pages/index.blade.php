@@ -15,7 +15,7 @@ Elevator (by Horntell)
 
 	<section class="secondary-banner">
 		<h3 class="font-thin">A tiny email filled with knowledge, delivered every Friday.</h3>
-		<p class="font-thin">Latest Edition: <a href="{{ $latest->url }}"><strong>{{ $latest->name }}</strong></a></p>
+		<p class="font-thin">Latest Edition: <a href="{{ $latest->url }}"><strong>{{ $latest->name }}</strong>  <i class="fa fa-angle-double-right"></i></a></p>
 		<div class="form-group container wrapper">
 			<form action="/join" method="POST">
 				<div class="col-md-8 col-md-offset-2">
