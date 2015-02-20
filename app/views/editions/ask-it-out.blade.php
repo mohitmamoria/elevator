@@ -57,7 +57,7 @@
 
 		<dl>
 			<dt>How do you prioritize which project to execute first? (at 00:33)</dt>
-			<dd>I prioritize base on two things equally - my intuition (fixing the future) and on what thigns are on fire (fixing the present).</dd>
+			<dd>I prioritize base on two things equally - my intuition (fixing the future) and on what things are on fire (fixing the present).</dd>
 			<hr />
 			<dt>If you were to jump into a time machine, travel back to speak to your 21 year old self, and only have 1 minute. What do you say? (at 02:59)</dt>
 			<dd>I'd say, "Have a little more fun in life. Don't stress over work too much. You're gonna accomplish things. You need to spend a little more time with your friends, you can go on one more vacation."</dd>
@@ -95,7 +95,7 @@
 			<li>I was willing to work my ass off to get the thing I wanted, because it was something I was really passionate about.</li>
 		</ul>
 
-		<p>People may go awe when they hear that he made $1,000,000 but what they don't get to hear is how much 'ask' Jason hsa done to reach there. They don't get to know about those 15000 emails that he sent to reach there. He overcame his fear of 'making the ask' was that he believed in himself.</p>
+		<p>People may go awe when they hear that he made $1,000,000 but what they don't get to hear is how much 'ask' Jason has done to reach there. They don't get to know about those 15000 emails that he sent to reach there. He overcame his fear of 'making the ask' was that he believed in himself.</p>
 
 		<a href="http://www.inc.com/jason-surfrapp/you-don-t-get-what-you-don-t-ask-for.html" class="text-sm">Read Complete Post <i class="fa fa-angle-double-right"></i></a>
 	</article>
@@ -117,7 +117,7 @@
 			<small>Steve Jobs</small>
 		</blockquote>
 
-		<p>You aren't a mere dreamer. You're a <a href="/editions/stop-talking-start-doing">doer</a>.</p>
+		<p>You aren't someone who just dreams. You're someone <a href="/editions/stop-talking-start-doing">who gets up and do</a>.</p>
 
 		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=QuestionEverything&text=I%20don't%20just%20assume.%20I%20question.%20I%20am%20proved%20wrong.%20I%20learn." class="twitter-hashtag-button" data-size="large" data-related="horntell,mohitmamoria" data-url="http://elevator.horntell.com/editions/ask-it-out">Tweet #QuestionEverything</a></p>
 	</article>
