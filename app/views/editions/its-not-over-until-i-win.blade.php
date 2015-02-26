@@ -35,13 +35,15 @@
 		<p>Not just users, I talked a lot to my team too to discuss things from their perspectives. I spent nights (they were sleepless anyway) wondering (or shedding a couple of tears) and I think, we've reached to some solutions.</p>
 
 		<p><strong>We will be shutting down all of our features except just one. It will bring down the running cost, thus costing less to our users while also making the integration of no more than 10 minutes.</strong></p>
+
+		<img src="/assets/images/its-not-over-until-i-win/booyah.gif" alt="Booyah" class="img-center img-responsive img-thumbnail">
 	</article>
 
 	<article class="text-edition">
 		<h3 class="heading-edition">It's Not Over</h3>
 		<p>And these lines from the video down below was another reason that I am back.</p>
 
-		<p><em>Everyday, we face rejection of a NO, we have a meeting and no one shows up or somebody says, "you can count on me," but they don't come through. What if we have that kind of attitude because we possess, no body believes in you, you've lost again and again and again, your life's cut-off but you're still looking at your dream. You're viewing it everyday and saying it to yourself...</em></p>
+		<p><em>...after we face rejection of a NO, we have a meeting and no one shows up or somebody says, "you can count on me," but they don't come through. Your car's possessed, no body believes in you, you've lost again and again and again, your life's cut-off but you're still looking at your dream. You're viewing it everyday and saying it to yourself...</em></p>
 		<p class="text-center"><strong>"It's Not Over, Until I Win".</strong></p>
 		<div class="video-wrapper">
 			<iframe width="100%" height="480" src="https://www.youtube.com/embed/g-jwWYX7Jlo?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -54,11 +56,22 @@
 		</blockquote>
 	</article>
 
+	<article class="text-edition wisdom wisdom-blue" id="the-rabbit">
+		<span class="wisdom-label"><a href="#the-rabbit"><i class="fa fa-anchor"></i></a>Book</span>
+		<h4 class="heading-edition">Don't change the rabbit</h4>
+		
+		<p>Usually, I click photos of interesting parts of a book. I was browsing through those shots when I found this. I am glad that I have this habit of collecting such nuggets. The 4 sentences in the image below were fitting so well in the situation I was in.</p>
+		<img src="/assets/images/its-not-over-until-i-win/rabbit.jpg" alt="Don't change the rabbit" class="img-center img-responsive img-thumbnail">
+		<p class="text-center text-xs">From the book 'The Habit of Winning' by Prakash Iyer</p>
+
+		<p>I am very happy that we changed the tactics, but are still attacking the same rabbit. <strong>We're gonna kill it, roast it and eat it.</strong> Until, I chew that fucking rabbit, I am not going to let the hunger settle.</p>
+	</article>
+
 	<hr />
 
 	<article class="text-edition">
 		<h3 class="text-center">I am still hungry. I will stay hungry.</h3>
 
-		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=UntilIWin&text=I%20am%20still%20hungry.%20I%20will%20stay%20hungry.%20It's%20not%20over,%20until%20I%20win." class="twitter-hashtag-button" data-size="large" data-related="mohitmamoria,horntell" data-url="http://elevator.horntell.com/editions/its-not-over-until-i-win">Tweet #UntilIWin</a></p>
+		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=IAmHungry&text=I%20am%20still%20hungry.%20I%20will%20stay%20hungry.%20It's%20not%20over,%20until%20I%20win." class="twitter-hashtag-button" data-size="large" data-related="mohitmamoria,horntell" data-url="http://elevator.horntell.com/editions/its-not-over-until-i-win">Tweet #IAmHungry</a></p>
 	</article>
 @endsection
