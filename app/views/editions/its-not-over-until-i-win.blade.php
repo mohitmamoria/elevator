@@ -78,6 +78,6 @@
 
 		<p class="text-center">Are you hungry too? I'd love to talk to you.</p>
 
-		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=IAmHungry&via=mohitmamoria&text=I%20am%20still%20hungry.%20I%20will%20stay%20hungry.%20It's%20not%20over,%20until%20I%20win." class="twitter-hashtag-button" data-size="large" data-related="mohitmamoria,horntell" data-url="http://elevator.horntell.com/editions/its-not-over-until-i-win">Tweet #IAmHungry</a></p>
+		<p class="text-center"><a href="https://twitter.com/intent/tweet?button_hashtag=ItIsNotOver&via=mohitmamoria&text=I%20am%20still%20hungry.%20I%20will%20stay%20hungry.%20It's%20not%20over,%20until%20I%20win." class="twitter-hashtag-button" data-size="large" data-related="mohitmamoria,horntell" data-url="http://elevator.horntell.com/editions/its-not-over-until-i-win">Tweet #ItIsNotOver</a></p>
 	</article>
 @endsection
