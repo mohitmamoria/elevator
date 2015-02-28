@@ -38,7 +38,7 @@ Elevator (by Horntell)
 			<div class="col-sm-4 wrapper-xl text-justify">
 				<img src="/assets/images/icons/twitter.png" alt="Across the Twitter" class="img-responsive img-center">
 				<h3 class="text-center">Across the Twitter</h3>
-				<p>There's so much wisdom spread around by influencers as well as the others. I’ll hunt down handful of these to get your day started.</p>
+				<p>There's so much wisdom spread around by influencers as well as the others. I’ll hunt down handful of these to make your day awesome.</p>
 			</div>
 			<div class="col-sm-4 wrapper-xl text-justify">
 				<img src="/assets/images/icons/blog.png" alt="Across the Blogs" class="img-responsive img-center">
